@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Partículas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at center, #1a1a2e, #0f0c29);
+      color: #00f0ff;
+      font-family: 'Press Start 2P', monospace;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-size: 20px;
+      color: #ff00cc;
+      text-shadow: 0 0 5px #ff00cc, 0 0 10px #ff00cc;
+    }
+
+    canvas {
+      border: 2px solid #00f0ff;
+      box-shadow: 0 0 20px #00f0ff;
+      background-color: black;
+      display: block;
+      margin: 0 auto;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <h1>nicroMundo 🪐</h1>
+  <canvas id="tela" width="800" height="600"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
